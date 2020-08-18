@@ -1,0 +1,63 @@
+html {
+  background-color: BurlyWood;
+  font-size: 20px;
+  font-family: 'Antic Slab', serif;
+}
+
+.body {
+  
+}
+
+.nav {
+  background-color: SaddleBrown;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+a {
+  color: BurlyWood;
+}
+
+.intro {
+  height: 10rem;
+  padding: 1rem;
+  
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: SaddleBrown;
+}
+
+.info {
+  
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.photos {
+  margin: 2em auto;
+  display: inline-block;
+}
+
+.testimonial {
+  background-color: SaddleBrown;
+  color: white;
+  padding: 1rem;
+}
+
+.testimonial h3 {
+  text-align: right;
+}
+
+@media only screen and (max-width: 480px) {
+  .info {
+    margin: 2rem;
+  }
+}
